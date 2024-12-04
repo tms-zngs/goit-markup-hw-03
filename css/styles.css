@@ -36,7 +36,7 @@ header .container {
 
 .logo {
   display: flex;
-  padding: 24px 76px 24px 156px;
+  margin: 24px 76px 24px 156px;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -58,15 +58,12 @@ header .container {
 
 nav {
   display: flex;
-  align-items: center; /* Центрирование логотипа и списка */
-  gap: 20px; /* Расстояние между элементами */
 }
+
 .nav-list {
   display: flex; /* Делаем элементы списка горизонтальными */
   gap: 20px; /* Отступы между пунктами меню */
-  list-style: none; /* Убираем маркеры списка */
-  margin: 0;
-  padding: 0;
+  margin: 24px 332px 24px 0;
 }
 
 .nav-link {
@@ -88,15 +85,12 @@ nav {
   font-style: normal;
   display: flex;
   gap: 20px;
-  padding-right: 156px;
+  margin-right: 156px;
 }
 
 .contacts-list {
   display: flex; /* Элементы списка расположены в линию */
   gap: 40px; /* Расстояние между контактами */
-  list-style: none; /* Убираем маркеры списка */
-  margin: 0;
-  padding: 0;
 }
 
 .contacts-link {
