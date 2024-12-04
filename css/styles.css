@@ -27,17 +27,22 @@ a {
   text-decoration: none;
 }
 
+.headeer {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav {
+.header-nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -64,11 +69,11 @@ nav {
 
 .nav-list {
   display: flex; /* Делаем элементы списка горизонтальными */
-  gap: 20px; /* Отступы между пунктами меню */
-  margin: 24px 332px 24px 0;
+  gap: 40px; /* Отступы между пунктами меню */
 }
 
 .nav-link {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
