@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo header-logo"
             >Web<span class="logo-part">Studio</span></a
@@ -50,41 +50,41 @@
     </header>
     <main>
       <!-- Hero Section -->
-      <section class="hero-section-stngs">
-        <div class="container">
+      <section class="hero-section">
+        <div class="container hero-container">
           <h1 class="page-tittle">Effective Solutions for Your Business</h1>
           <button class="order-button" type="button">Order Service</button>
         </div>
       </section>
       <!-- Features section -->
       <section>
-        <div class="container">
-          <h2 hidden>Features</h2>
+        <div class="container features-container">
+          <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
-            <li>
-              <h3 class="feature-tittle">Strategy</h3>
-              <p class="feature-text">
+            <li class="features-item">
+              <h3 class="features-tittle">Strategy</h3>
+              <p class="features-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
-              <h3 class="feature-tittle">Punctuality</h3>
-              <p class="feature-text">
+            <li class="features-item">
+              <h3 class="features-tittle">Punctuality</h3>
+              <p class="features-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
-              <h3 class="feature-tittle">Diligence</h3>
-              <p class="feature-text">
+            <li class="features-item">
+              <h3 class="features-tittle">Diligence</h3>
+              <p class="features-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
-              <h3 class="feature-tittle">Technologies</h3>
-              <p class="feature-text">
+            <li class="features-item">
+              <h3 class="features-tittle">Technologies</h3>
+              <p class="features-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -94,7 +94,7 @@
       </section>
       <!-- Our Team section -->
       <section class="team-section">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="team-tittle">Our Team</h2>
           <ul class="team-list">
             <li class="team-element">
@@ -104,8 +104,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name">Mark Guerrero</h3>
-              <p class="team-position">Product Designer</p>
+              <div class="team-text-container">
+                <h3 class="team-name">Mark Guerrero</h3>
+                <p class="team-position">Product Designer</p>
+              </div>
             </li>
             <li class="team-element">
               <img
@@ -114,8 +116,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name">Tom Ford</h3>
-              <p class="team-position">Frontend Developer</p>
+              <div class="team-text-container">
+                <h3 class="team-name">Tom Ford</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-element">
               <img
@@ -124,8 +128,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name">Camila Garcia</h3>
-              <p class="team-position">Marketing</p>
+              <div class="team-text-container">
+                <h3 class="team-name">Camila Garcia</h3>
+                <p class="team-position">Marketing</p>
+              </div>
             </li>
             <li class="team-element">
               <img
@@ -134,26 +140,30 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name">Daniel Wilson</h3>
-              <p class="team-position">UI Designer</p>
+              <div class="team-text-container">
+                <h3 class="team-name">Daniel Wilson</h3>
+                <p class="team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <!-- Our Portfolio section -->
       <section>
-        <div class="container">
+        <div class="container portfolio-container">
           <h2 class="portolio-tittle">Our Portfolio</h2>
           <ul class="portfolio-list">
-            <li>
+            <li class="portfolio-item">
               <img
                 src="./images/portfolio-images/banking-app.jpg"
                 alt="banking app preview"
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-product">Banking App</h3>
-              <p class="product-type">App</p>
+              <div class="portfolio-descr-container">
+                <h3 class="portfolio-product">Banking App</h3>
+                <p class="product-type">App</p>
+              </div>
             </li>
             <li>
               <img
@@ -162,8 +172,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-product">Cashless Payment</h3>
-              <p class="product-type">Marketing</p>
+              <div class="portfolio-descr-container">
+                <h3 class="portfolio-product">Cashless Payment</h3>
+                <p class="product-type">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -172,8 +184,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-product">Meditation App</h3>
-              <p class="product-type">App</p>
+              <div class="portfolio-descr-container">
+                <h3 class="portfolio-product">Meditation App</h3>
+                <p class="product-type">App</p>
+              </div>
             </li>
             <li>
               <img
@@ -182,8 +196,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-product">Taxi Service</h3>
-              <p class="product-type">Marketing</p>
+              <div class="portfolio-descr-container">
+                <h3 class="portfolio-product">Taxi Service</h3>
+                <p class="product-type">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -192,8 +208,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-product">Screen Illustrations</h3>
-              <p class="product-type">Design</p>
+              <div class="portfolio-descr-container">
+                <h3 class="portfolio-product">Screen Illustrations</h3>
+                <p class="product-type">Design</p>
+              </div>
             </li>
             <li>
               <img
@@ -202,15 +220,17 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-product">Online Courses</h3>
-              <p class="product-type">Marketing</p>
+              <div class="portfolio-descr-container">
+                <h3 class="portfolio-product">Online Courses</h3>
+                <p class="product-type">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="page-footer">
-      <div class="container">
+      <div class="container footer-container">
         <a href="./index.html" class="logo footer-logo"
           >Web<span class="logo-part">Studio</span></a
         >
